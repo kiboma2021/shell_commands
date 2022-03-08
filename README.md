@@ -5,11 +5,14 @@
 To see all aliases that are effect to the current user, type 'alious' in cmd
 
 syntax: alias [-p] [name="value"]
+
 	alias p='pwd'
 	alias ls='ls -al'
 	alias l='ls -al/etc'  //to display contents of etc folder
 
-To disable an alias, we use '\' e.g \ls
+To disable an alias, we use '\' e.g
+
+	 \ls
 
 Multiple commands can be included in the same alias:
 
@@ -24,4 +27,5 @@ command line:
 		 begin with d
 
 To remove an alias we use 'unalias'
+
 	unalias rm
