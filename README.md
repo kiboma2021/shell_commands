@@ -24,3 +24,4 @@ command line:
 		 begin with d
 
 To remove an alias we use 'unalias'
+	unalias rm
